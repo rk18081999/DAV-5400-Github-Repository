@@ -1,0 +1,40 @@
+{
+    "albums": [
+        {
+            "album_title": "Ala Vaikunthapurramuloo",
+            "artist": "Sid Sriram",
+            "songs": [
+                "Samajavaragamana",
+                "Ramuloo Ramulaa",
+                "OMG Daddy",
+                "Butta Bomma",
+                "Evadra Evadra"
+            ],
+            "year": 2020
+        },
+        {
+            "album_title": "Aravindha Sametha Veera Raghava",
+            "artist": "Kaala Bhairava",
+            "songs": [
+                "Anaganaganaga",
+                "Yeda Poinado",
+                "Reddy Ikkada Soodu",
+                "Peniviti",
+                "Annaya annav"
+            ],
+            "year": 2018
+        },
+        {
+            "album_title": "Baahubali: The Beginning",
+            "artist": "Damini",
+            "songs": [
+                "Mamatala Talli",
+                "Nippule Swasaga",
+                "Dheevara",
+                "Pacha Bottasi",
+                "Sahore"
+            ],
+            "year": 2015
+        }
+    ]
+}
