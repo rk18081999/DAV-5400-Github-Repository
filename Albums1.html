@@ -35,17 +35,5 @@
             </tr>
         </tbody>
     </table>
-
-    <script>
-        // Get all elements with the tag name 'td' (table cells) that contain years
-        var yearCells = document.querySelectorAll('td:nth-child(4)');
-
-        // Iterate through each year cell and convert its content to an integer
-        yearCells.forEach(function (cell) {
-            cell.textContent = parseInt(cell.textContent);
-            // Alternatively, you can use the Number constructor:
-            // cell.textContent = Number(cell.textContent);
-        });
-    </script>
 </body>
 </html>
