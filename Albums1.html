@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Albums</title>
-    </head>
-    <body>
-        <h1>Albums Information</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Album Title</th>
-                    <th>Artist</th>
-                    <th>Songs</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Vakeel Saab</td>
-                    <td>Thaman S</td>
-                    <td>Maguva Maguva, Sathyameva Jayathe, Pudhu Pattu, Cheliya Anadi</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <td>Pushpa: The Rise</td>
-                    <td>Devi Sri Prasad</td>
-                    <td>Jaathikkathottam, Oo Antava, Ee Raathale, Srivalli</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <td>RRR</td>
-                    <td>M. M. Keeravani</td>
-                    <td>Nacho Nacho, Naatu Naatu, Sholay, Dosti</td>
-                    <td>2022</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+<head>
+    <title>Albums</title>
+</head>
+<body>
+    <h1>Albums Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Album Title</th>
+                <th>Artist</th>
+                <th>Songs</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vakeel Saab</td>
+                <td>Thaman S</td>
+                <td>Maguva Maguva, Sathyameva Jayathe, Pudhu Pattu, Cheliya Anadi</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Pushpa: The Rise</td>
+                <td>Devi Sri Prasad</td>
+                <td>Jaathikkathottam, Oo Antava, Ee Raathale, Srivalli</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>RRR</td>
+                <td>M. M. Keeravani</td>
+                <td>Nacho Nacho, Naatu Naatu, Sholay, Dosti</td>
+                <td>2022</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Get all elements with the tag name 'td' (table cells) that contain years
+        var yearCells = document.querySelectorAll('td:nth-child(4)');
+
+        // Iterate through each year cell and convert its content to an integer
+        yearCells.forEach(function (cell) {
+            cell.textContent = parseInt(cell.textContent);
+            // Alternatively, you can use the Number constructor:
+            // cell.textContent = Number(cell.textContent);
+        });
+    </script>
+</body>
 </html>
