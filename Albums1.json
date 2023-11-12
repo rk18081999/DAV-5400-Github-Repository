@@ -1,0 +1,37 @@
+{
+    "albums": [
+        {
+            "Album Title": "Vakeel Saab",
+            "Artist": "Thaman S",
+            "Songs": [
+                "Maguva Maguva",
+                "Sathyameva Jayathe",
+                "Pudhu Pattu",
+                "Cheliya Anadi"
+            ],
+            "Year": 2021
+        },
+        {
+            "Album Title": "Pushpa: The Rise",
+            "Artist": "Devi Sri Prasad",
+            "Songs": [
+                "Jaathikkathottam",
+                "Oo Antava",
+                "Ee Raathale",
+                "Srivalli"
+            ],
+            "Year": 2021
+        },
+        {
+            "Album Title": "RRR",
+            "Artist": "M. M. Keeravani",
+            "Songs": [
+                "Nacho Nacho",
+                "Naatu Naatu",
+                "Sholay",
+                "Dosti"
+            ],
+            "Year": 2022
+        }
+    ]
+}
