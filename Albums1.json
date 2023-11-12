@@ -9,7 +9,7 @@
                 "Pudhu Pattu",
                 "Cheliya Anadi"
             ],
-            "Year": "2021"
+            "Year": 2021
         },
         {
             "Album Title": "Pushpa: The Rise",
@@ -20,7 +20,7 @@
                 "Ee Raathale",
                 "Srivalli"
             ],
-            "Year": "2021"
+            "Year": 2021
         },
         {
             "Album Title": "RRR",
@@ -31,7 +31,7 @@
                 "Sholay",
                 "Dosti"
             ],
-            "Year": "2022"
+            "Year": 2022
         }
     ]
 }
